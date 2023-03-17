@@ -24,10 +24,6 @@
                     <label for="password_confirmation">Confirmar Contraseña:</label>
                     <input type="password" name="password_confirmation" placeholder="Confirmar cambio de contraseña">
 
-                    @csrf
-                    <label for="profile_picture">Foto de perfil:</label>
-                    <input type="file" name="profile_picture">
-
                     <button type="submit">Guardar cambios</button><br><br>
                 </form>
             </div>

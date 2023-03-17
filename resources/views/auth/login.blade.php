@@ -1,5 +1,11 @@
+
 <x-guest-layout>
-    <!-- Session Status -->
+    <x-nav-link :href="route('login')" :active="request()->routeIs('login')">
+    {{ __('Login') }}
+    </x-nav-link>
+    <x-nav-link :href="route('register')" :active="request()->routeIs('register')">
+        {{ __('Register') }}
+        </x-nav-link>
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
     <form method="POST" action="{{ route('login') }}">
@@ -44,4 +50,5 @@
             </x-primary-button>
         </div>
     </form>
+    
 </x-guest-layout>

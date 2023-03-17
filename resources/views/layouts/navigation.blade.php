@@ -20,7 +20,17 @@
                     </x-nav-link>
                 </div>
             </div>
-
+            @if (auth()->user()->rol == 1)
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <!-- Navigation Links -->
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-nav-link :href="route('admin.users.index')" :active="request()->routeIs('admin.users.index')">
+                            {{ __('Administrador') }}
+                        </x-nav-link>
+                    </div>
+                </div>
+                @endif
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6 ">
                 <x-dropdown align="right" width="48">
