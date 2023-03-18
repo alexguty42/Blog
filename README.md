@@ -78,3 +78,6 @@ A la nostra Base de Dades disposem de les següents taules:
 - Email: admin@gmail.com
 - Contrasenya : @dmin1234
 
+## Enllaç al Blog
+
+- https://infallible-knuth.212-227-169-165.plesk.page/blog
