@@ -22,7 +22,7 @@
                     <input type="password" name="password" placeholder="Cambiar contraseña">
 
                     <label for="password_confirmation">Confirmar Contraseña:</label>
-                    <input type="password" name="password_confirmation" placeholder="Confirmar cambio de contraseña">
+                    <input type="password" name="password_confirmation" placeholder="Confirmar canvi de contraseña">
 
                     <button type="submit">Guardar cambios</button><br><br>
                 </form>
