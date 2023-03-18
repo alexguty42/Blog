@@ -14,9 +14,9 @@
 
 
     <div class="jumbotron text-center">
-        <h1>¡Bienvenido al blog!</h1>
-        <p>Aquí encontrarás artículos interesantes sobre diversos temas.</p>
-        <p >Haz clic en el botón para comenzar a explorar.</p>
+        <h1>¡Benvingut al blog!</h1>
+        <p>Aquí trobarás articles interessants sobre diversos temes.</p>
+        <p >Fes click al botó per començar a explorar!</p>
         <a class="buton" href="/blog" role="button">Explorar</a>
     </div>
 </div>
