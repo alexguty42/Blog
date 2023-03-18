@@ -12,17 +12,17 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <form method="POST" action="{{ route('profile.update') }}" enctype="multipart/form-data">
                     @csrf
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre">Nom:</label>
                     <input type="text" name="nombre" value="{{ old('name', $user->name) }}">
 
                     <label for="email">Email:</label>
                     <input type="email" name="email" value="{{ old('email', $user->email) }}">
 
-                    <label for="password">Contraseña:</label>
-                    <input type="password" name="password" placeholder="Cambiar contraseña">
+                    <label for="password">Contrasenya:</label>
+                    <input type="password" name="password" placeholder="Cambiar contrasenya">
 
-                    <label for="password_confirmation">Confirmar Contraseña:</label>
-                    <input type="password" name="password_confirmation" placeholder="Confirmar canvi de contraseña">
+                    <label for="password_confirmation">Confirmar Contrasenya:</label>
+                    <input type="password" name="password_confirmation" placeholder="Confirmar canvi de contrasenya">
 
                     <button type="submit">Guardar canvis</button><br><br>
                 </form>
