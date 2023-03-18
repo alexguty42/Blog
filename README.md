@@ -15,15 +15,20 @@ Aquesta pagina s'ha creat amb el llenguatge de programació Laravel, es un blog 
 
 El Register ens permet registrar-nos al Blog amb el Usuari, Email, Contrasenya.
 
+![image](https://user-images.githubusercontent.com/115020513/226125713-d2eefbd8-db37-4f16-9143-a485fed11f2e.png)
+
 ## Login
 
 El Login ens permet iniciar sessió amb el Email i la contrasenya que hem utilitzat per registrar-nos al Blog.
+
+![image](https://user-images.githubusercontent.com/115020513/226125726-4c536a8d-ecb9-4c55-b1e6-19b99ee7f6f8.png)
+
 
 ## Benvinguda
 
 Es una página que ens dona la benvinguda al Blog i que prenent un botó ens redireccionará directament a l'inici.
 
-### Inici
+## Inici
 
 En aquesta página, ens permet introduir els nostres Posts amb Títol y Descripció, també ens permet comentar el POsts ja existents.
 - Amb l'usuari Administrador podrem esborrar tant els Posts com els Comentaris.
