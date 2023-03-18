@@ -48,12 +48,14 @@
                     <h4 class="mt-4 text-red-900">{{ $post->user->name }}</h4>
                     <h4 class="mt-4 text-red-900">{{ $post->comment}}</h4>
                     <h4>★★★</h4>
-                    @if (auth()->user()->rol == 1)
+                    
+            </form>
+            @if (auth()->user()->rol == 1)
               <form method="POST" action="{{ route('comment.destroy', $comment->id) }}">
                 @csrf
                 @method('DELETE')
                 <button type="submit" class="text-sm  hover:text-red-700 ">Eliminar</button>
-            </form>
+                </form>
             @endif
                 </div>
                     <br>
