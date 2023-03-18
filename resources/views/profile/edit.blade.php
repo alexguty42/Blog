@@ -24,7 +24,7 @@
                     <label for="password_confirmation">Confirmar Contraseña:</label>
                     <input type="password" name="password_confirmation" placeholder="Confirmar canvi de contraseña">
 
-                    <button type="submit">Guardar cambios</button><br><br>
+                    <button type="submit">Guardar canvis</button><br><br>
                 </form>
             </div>
         </div>
